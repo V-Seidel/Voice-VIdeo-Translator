@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "voice-video-translator"
+version = "0.1.0"
+description = "Poetry package to voice-video-translator"
+authors = ["V-Seidel-NM <Vinicius.seidel@neuralmind.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+torch = "2.3.0"
+pytube = "^15.0.0"
+pydub = "^0.25.1"
+librosa = "^0.10.2.post1"
+transformers = "^4.41.2"
+logging = "^0.4.9.6"
+pydantic = "^2.7.4"
+pydantic-settings = "^2.3.3"
+pyspellchecker = "^0.8.1"
+language-tool-python = "^2.8"
+sentencepiece = "^0.2.0"
+langchain = "^0.2.5"
+langchain-community = "^0.2.5"
+accelerate = "^0.31.0"
+openllm = "^0.5.7"
+openai = "^1.35.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
